@@ -55,9 +55,11 @@ const TodoList = () => {
 
   return (
     <div className="bg-dark-grey text-light-grey">
-      <header className="text-center">
-        <h1>To Do List</h1>
+      <header className="text-center pb-3">
+        <h1 className="display-4">To Do List</h1>
+        <hr className="my-4" />
       </header>
+
       <div>
         <div className="row">
           <div className="col-2"></div>
@@ -89,7 +91,7 @@ const TodoList = () => {
           </ul>
           <div className="col-2"></div>
         </div>
-
+        <hr className="my-4" />
         <div className="row">
           <div className="col-12 d-flex justify-content-center align-items-center">
             <div className="col-4">
@@ -108,6 +110,10 @@ const TodoList = () => {
               </Button>
             </div>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </div>
